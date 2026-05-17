@@ -1,0 +1,27 @@
+[
+  {
+    "model": "biology",
+    "reason": "Viability score below 70% threshold",
+    "viability_score": 0.6155596966503185
+  },
+  {
+    "model": "stress",
+    "reason": "Viability score below 70% threshold",
+    "viability_score": 0.5316528159637878
+  },
+  {
+    "model": "heat",
+    "reason": "Viability score below 70% threshold",
+    "viability_score": 0.42614496663327367
+  },
+  {
+    "model": "chemistry",
+    "reason": "Viability score below 70% threshold",
+    "viability_score": 0.4268982569940488
+  },
+  {
+    "model": "growth",
+    "reason": "Viability score below 70% threshold",
+    "viability_score": 0.3506889854194787
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "spec_version": "1.0.0",
+  "generated_at": "2026-04-28T00:00:00Z",
+  "pipeline_id": "d13a0895-68bf-4304-be38-77a74eea3116",
+  "original_prompt": "sugarcane cultivation in Uttar Pradesh at 37°C under heat stress",
+
+  "crop_type": "sugarcane",
+  "variety": null,
+  "growth_stage": null,
+  "target_yield_t_ha": null,
+
+  "location": {
+    "city": "Uttar Pradesh",
+    "state": "U.P.",
+    "country": "India",
+    "latitude": null,
+    "longitude": null,
+    "climate_zone": "subtropical",
+    "koppen_class": null
+  },
+
+  "conditions": {
+    "temperature_max": 37.0,
+    "temperature_min": 21.0,
+    "temperature_mean": 29.0,
+    "rainfall_annual": 700.0,
+    "humidity_mean": 55.0,
+    "solar_radiation": 22.5,
+    "co2_ppm": 420.0,
+    "stress_type": "heat"
+  },
+
+  "soil_type": "loamy",
+  "soil_ph": 6.8,
+  "soil_nitrogen_ppm": 120.0,
+
+  "relevant_traits": [
+    {
+      "trait_id": "T001",
+      "trait_name": "heat_tolerance",
+      "value": 42.0,
+      "unit": "°C",
+      "confidence": 0.92,
+      "source_dataset": "ICAR",
+      "similarity_score": 0.91
+    },
+    {
+      "trait_id": "T002",
+      "trait_name": "sucrose_stability_under_heat",
+      "value": 0.85,
+      "unit": "index",
+      "confidence": 0.88,
+      "source_dataset": "IISR",
+      "similarity_score": 0.87
+    },
+    {
+      "trait_id": "T003",
+      "trait_name": "photosynthetic_efficiency_high_temp",
+      "value": 0.90,
+      "unit": "efficiency",
+      "confidence": 0.86,
+      "source_dataset": "C4_crop_studies",
+      "similarity_score": 0.85
+    }
+  ],
+
+  "research_insights": [
+    {
+      "paper_id": "R001",
+      "title": "Heat Stress Response in Crops",
+      "year": 2023,
+      "journal": "Plant Physiology",
+      "key_finding": "HSP70 and HSP90 expression significantly improves survival above 40°C.",
+      "relevance": 0.92,
+      "doi": null
+    },
+    {
+      "paper_id": "R002",
+      "title": "Root Architecture and Stress Tolerance",
+      "year": 2022,
+      "journal": "Agricultural Science",
+      "key_finding": "Deep root systems improve drought survival by 35%.",
+      "relevance": 0.88,
+      "doi": null
+    },
+    {
+      "paper_id": "R003",
+      "title": "Ion Regulation in Stress Conditions",
+      "year": 2021,
+      "journal": "Crop Science",
+      "key_finding": "Na+/K+ regulation helps maintain yield stability in stress soils.",
+      "relevance": 0.84,
+      "doi": null
+    }
+  ],
+
+  "simulation_params": {
+    "simulation_type": "crop_stress_model_v2",
+    "duration_days": 120,
+    "timestep_hours": 1,
+    "stress_scenario": "heat",
+    "temperature_profile": {
+      "max": 37.0,
+      "min": 21.0,
+      "diurnal_range": 16.0
+    },
+    "water_balance": true,
+    "phenology_model": "DSSAT",
+    "output_variables": [
+      "grain_yield",
+      "biomass",
+      "leaf_area_index",
+      "transpiration",
+      "stress_index"
+    ]
+  },
+
+  "confidence_score": 0.9,
+  "validation_passed": true,
+
+  "warnings": []
+}
