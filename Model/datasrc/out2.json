@@ -1,0 +1,134 @@
+{
+  "spec_version": "1.0.0",
+  "generated_at": "2026-04-28T00:00:00Z",
+  "pipeline_id": "e7c21f0a-9d7e-4c2f-9a1d-5f4b9c1e8a11",
+  "original_prompt": "wheat cultivation in Delhi at 45°C under heat stress",
+
+  "crop_type": "wheat",
+  "variety": null,
+  "growth_stage": null,
+  "target_yield_t_ha": null,
+
+  "location": {
+    "city": "Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "latitude": 28.66,
+    "longitude": 77.22,
+    "climate_zone": "semi-arid",
+    "koppen_class": "BSh"
+  },
+
+  "conditions": {
+    "temperature_max": 45.0,
+    "temperature_min": 29.0,
+    "temperature_mean": 37.0,
+    "rainfall_annual": 500.0,
+    "humidity_mean": 45.0,
+    "solar_radiation": 22.5,
+    "co2_ppm": 420.0,
+    "stress_type": "heat"
+  },
+
+  "soil_type": "loamy",
+  "soil_ph": 6.8,
+  "soil_nitrogen_ppm": 120.0,
+
+  "relevant_traits": [
+    {
+      "trait_id": "T101",
+      "trait_name": "heat_tolerance",
+      "value": 45.0,
+      "unit": "°C",
+      "confidence": 0.93,
+      "source_dataset": "ICAR-IARI",
+      "similarity_score": 0.92
+    },
+    {
+      "trait_id": "T102",
+      "trait_name": "pollen_viability_under_heat",
+      "value": 0.78,
+      "unit": "index",
+      "confidence": 0.89,
+      "source_dataset": "CIMMYT",
+      "similarity_score": 0.88
+    },
+    {
+      "trait_id": "T103",
+      "trait_name": "grain_filling_stability",
+      "value": 0.82,
+      "unit": "index",
+      "confidence": 0.87,
+      "source_dataset": "NRCPB",
+      "similarity_score": 0.86
+    },
+    {
+      "trait_id": "T104",
+      "trait_name": "canopy_temperature_tolerance",
+      "value": 0.80,
+      "unit": "index",
+      "confidence": 0.85,
+      "source_dataset": "HD3086_studies",
+      "similarity_score": 0.84
+    }
+  ],
+
+  "research_insights": [
+    {
+      "paper_id": "R101",
+      "title": "Heat Stress Response in Wheat",
+      "year": 2023,
+      "journal": "Plant Physiology",
+      "key_finding": "HSP70 and HSP90 expression significantly improves survival above 42–45°C.",
+      "relevance": 0.93,
+      "doi": null
+    },
+    {
+      "paper_id": "R102",
+      "title": "Root Architecture and Stress Adaptation",
+      "year": 2022,
+      "journal": "Agricultural Systems",
+      "key_finding": "Deep root systems combined with osmotic adjustment increase survival by ~35%.",
+      "relevance": 0.88,
+      "doi": null
+    },
+    {
+      "paper_id": "R103",
+      "title": "Ion Homeostasis Under Stress",
+      "year": 2021,
+      "journal": "Crop Science",
+      "key_finding": "Na+/K+ regulation helps maintain yield stability under stress conditions.",
+      "relevance": 0.84,
+      "doi": null
+    }
+  ],
+
+  "simulation_params": {
+    "simulation_type": "crop_stress_model_v2",
+    "duration_days": 120,
+    "timestep_hours": 1,
+    "stress_scenario": "heat",
+    "temperature_profile": {
+      "max": 45.0,
+      "min": 29.0,
+      "diurnal_range": 16.0
+    },
+    "water_balance": true,
+    "phenology_model": "DSSAT",
+    "output_variables": [
+      "grain_yield",
+      "biomass",
+      "leaf_area_index",
+      "transpiration",
+      "stress_index"
+    ]
+  },
+
+  "confidence_score": 0.95,
+  "validation_passed": true,
+
+  "warnings": [
+    "Extreme heat (45°C) is near upper tolerance limit for wheat; yield loss risk is high.",
+    "Heat stress during flowering and grain filling can significantly reduce productivity."
+  ]
+}

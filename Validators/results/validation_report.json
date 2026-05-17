@@ -1,0 +1,1617 @@
+{
+  "report_id": "VR-20260503-110409",
+  "generated_at": "2026-05-03T11:04:09.035747",
+  "executive_summary": {
+    "total_designs": 30,
+    "passed": 30,
+    "failed": 0,
+    "pass_rate_pct": 100.0,
+    "cross_domain_passed": 0,
+    "surrogate_accuracy": "86.0%",
+    "recommended_threshold": 0.5,
+    "system_status": "NEEDS ATTENTION"
+  },
+  "top_designs": [
+    {
+      "rank": 1,
+      "design_id": "T_2427391636288",
+      "score": 0.7659,
+      "biology_score": 0.9885,
+      "materials_score": 0.6782,
+      "physics_score": 0.6545,
+      "chemistry_score": 0.6896,
+      "recommendation": "\u26a0\ufe0f  Monitor closely"
+    },
+    {
+      "rank": 2,
+      "design_id": "T_2427392077760",
+      "score": 0.7659,
+      "biology_score": 0.9885,
+      "materials_score": 0.6782,
+      "physics_score": 0.6545,
+      "chemistry_score": 0.6896,
+      "recommendation": "\u26a0\ufe0f  Monitor closely"
+    },
+    {
+      "rank": 3,
+      "design_id": "T_2427392075072",
+      "score": 0.7659,
+      "biology_score": 0.9885,
+      "materials_score": 0.6782,
+      "physics_score": 0.6545,
+      "chemistry_score": 0.6896,
+      "recommendation": "\u26a0\ufe0f  Monitor closely"
+    },
+    {
+      "rank": 4,
+      "design_id": "T_2427392073024",
+      "score": 0.7659,
+      "biology_score": 0.9885,
+      "materials_score": 0.6782,
+      "physics_score": 0.6545,
+      "chemistry_score": 0.6896,
+      "recommendation": "\u26a0\ufe0f  Monitor closely"
+    },
+    {
+      "rank": 5,
+      "design_id": "T_2427392071552",
+      "score": 0.7659,
+      "biology_score": 0.9885,
+      "materials_score": 0.6782,
+      "physics_score": 0.6545,
+      "chemistry_score": 0.6896,
+      "recommendation": "\u26a0\ufe0f  Monitor closely"
+    },
+    {
+      "rank": 6,
+      "design_id": "T_2427392069568",
+      "score": 0.7659,
+      "biology_score": 0.9885,
+      "materials_score": 0.6782,
+      "physics_score": 0.6545,
+      "chemistry_score": 0.6896,
+      "recommendation": "\u26a0\ufe0f  Monitor closely"
+    },
+    {
+      "rank": 7,
+      "design_id": "T_2427392068288",
+      "score": 0.7659,
+      "biology_score": 0.9885,
+      "materials_score": 0.6782,
+      "physics_score": 0.6545,
+      "chemistry_score": 0.6896,
+      "recommendation": "\u26a0\ufe0f  Monitor closely"
+    },
+    {
+      "rank": 8,
+      "design_id": "T_2427392066944",
+      "score": 0.7659,
+      "biology_score": 0.9885,
+      "materials_score": 0.6782,
+      "physics_score": 0.6545,
+      "chemistry_score": 0.6896,
+      "recommendation": "\u26a0\ufe0f  Monitor closely"
+    },
+    {
+      "rank": 9,
+      "design_id": "T_2427392065984",
+      "score": 0.7659,
+      "biology_score": 0.9885,
+      "materials_score": 0.6782,
+      "physics_score": 0.6545,
+      "chemistry_score": 0.6896,
+      "recommendation": "\u26a0\ufe0f  Monitor closely"
+    },
+    {
+      "rank": 10,
+      "design_id": "T_2427392069312",
+      "score": 0.7659,
+      "biology_score": 0.9885,
+      "materials_score": 0.6782,
+      "physics_score": 0.6545,
+      "chemistry_score": 0.6896,
+      "recommendation": "\u26a0\ufe0f  Monitor closely"
+    }
+  ],
+  "failure_summary": {
+    "total": 0,
+    "distribution": {},
+    "severity": {}
+  },
+  "accuracy_summary": {
+    "accuracy_pct": 86.0,
+    "false_positive_pct": 43.75,
+    "false_negative_pct": 0.0,
+    "f1_score": 0.9067,
+    "passed": false,
+    "confusion_matrix": {
+      "TP": 68,
+      "TN": 18,
+      "FP": 14,
+      "FN": 0
+    }
+  },
+  "recommendations": [
+    "Improve surrogate model training \u2014 target >97% accuracy"
+  ],
+  "suite_results": {
+    "suite_passed": false,
+    "total_tests": 7,
+    "passed_tests": 5,
+    "total_ms": 69.49,
+    "timestamp": "2026-05-03T11:04:09.029119",
+    "test_results": [
+      {
+        "name": "Core Validation",
+        "passed": 30,
+        "duration_ms": 1.0,
+        "result": {
+          "passed": 30,
+          "total": 30,
+          "failed": 0,
+          "pass_rate": 1.0,
+          "top_winners": [
+            "T_2427391636288",
+            "T_2427392077760",
+            "T_2427392075072",
+            "T_2427392073024",
+            "T_2427392071552",
+            "T_2427392069568",
+            "T_2427392068288",
+            "T_2427392066944",
+            "T_2427392065984",
+            "T_2427392069312"
+          ],
+          "results": [
+            {
+              "design_id": "T_2427391636288",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959133"
+            },
+            {
+              "design_id": "T_2427392077760",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959152"
+            },
+            {
+              "design_id": "T_2427392075072",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959162"
+            },
+            {
+              "design_id": "T_2427392073024",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959170"
+            },
+            {
+              "design_id": "T_2427392071552",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959180"
+            },
+            {
+              "design_id": "T_2427392069568",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959189"
+            },
+            {
+              "design_id": "T_2427392068288",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959199"
+            },
+            {
+              "design_id": "T_2427392066944",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959210"
+            },
+            {
+              "design_id": "T_2427392065984",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959220"
+            },
+            {
+              "design_id": "T_2427392069312",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959230"
+            },
+            {
+              "design_id": "T_2427392079552",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959239"
+            },
+            {
+              "design_id": "T_2427392074240",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959249"
+            },
+            {
+              "design_id": "T_2427392076224",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959258"
+            },
+            {
+              "design_id": "T_2427392077120",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959267"
+            },
+            {
+              "design_id": "T_2427392078656",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959276"
+            },
+            {
+              "design_id": "T_2427392080064",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959286"
+            },
+            {
+              "design_id": "T_2427392081472",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959295"
+            },
+            {
+              "design_id": "T_2427392154880",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959304"
+            },
+            {
+              "design_id": "T_2427392151616",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959310"
+            },
+            {
+              "design_id": "T_2427392150784",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959315"
+            },
+            {
+              "design_id": "T_2427392156224",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959319"
+            },
+            {
+              "design_id": "T_2427392157760",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959323"
+            },
+            {
+              "design_id": "T_2427392159808",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959327"
+            },
+            {
+              "design_id": "T_2427392161536",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959337"
+            },
+            {
+              "design_id": "T_2427392163584",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959342"
+            },
+            {
+              "design_id": "T_2427392147712",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959346"
+            },
+            {
+              "design_id": "T_2427392148224",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959350"
+            },
+            {
+              "design_id": "T_2427392148736",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959356"
+            },
+            {
+              "design_id": "T_2427392149248",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959361"
+            },
+            {
+              "design_id": "T_2427392150528",
+              "passed": true,
+              "score": 0.765947,
+              "total_traits": 10,
+              "passed_traits": 7,
+              "failed_traits": 3,
+              "top_winners": [
+                "T_2427391636288",
+                "T_2427392077760",
+                "T_2427392075072",
+                "T_2427392073024",
+                "T_2427392071552",
+                "T_2427392069568",
+                "T_2427392068288",
+                "T_2427392066944",
+                "T_2427392065984",
+                "T_2427392069312"
+              ],
+              "rejection_reason": null,
+              "timestamp": "2026-05-03T11:04:08.959365"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Cross-Domain Validation",
+        "passed": 0,
+        "duration_ms": 0.64,
+        "result": {
+          "passed": 0,
+          "total": 30,
+          "failed": 30,
+          "failure_distribution": {
+            "biology": 0,
+            "materials": 30,
+            "physics": 0,
+            "chemistry": 0
+          },
+          "results": [
+            {
+              "design_id": "T_2427391636288",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392077760",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392075072",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392073024",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392071552",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392069568",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392068288",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392066944",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392065984",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392069312",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392079552",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392074240",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392076224",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392077120",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392078656",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392080064",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392081472",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392154880",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392151616",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392150784",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392156224",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392157760",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392159808",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392161536",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392163584",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392147712",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392148224",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392148736",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392149248",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            },
+            {
+              "design_id": "T_2427392150528",
+              "overall_passed": false,
+              "failure_domain": "materials",
+              "failure_reason": "Materials score 0.6782 < min 0.68",
+              "domains_checked": 2,
+              "checks": [
+                {
+                  "domain": "biology",
+                  "score": 0.9885,
+                  "threshold": 0.65,
+                  "passed": true,
+                  "reason": null
+                },
+                {
+                  "domain": "materials",
+                  "score": 0.6782,
+                  "threshold": 0.68,
+                  "passed": false,
+                  "reason": "Materials score 0.6782 < min 0.68"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Accuracy Validation",
+        "passed": false,
+        "duration_ms": 9.61,
+        "result": {
+          "passed": false,
+          "accuracy_pct": 86.0,
+          "false_positive_pct": 43.75,
+          "false_negative_pct": 0.0,
+          "precision": 0.8293,
+          "recall": 1.0,
+          "f1_score": 0.9067,
+          "recommended_threshold": 0.5,
+          "violations": [
+            "Accuracy 86.00% < 95%",
+            "FP rate 43.75% > 5%"
+          ]
+        }
+      },
+      {
+        "name": "Speed Test",
+        "passed": true,
+        "duration_ms": 0.54,
+        "result": {
+          "passed": true,
+          "elapsed_ms": 0.53,
+          "threshold_ms": 500
+        }
+      },
+      {
+        "name": "Failure Analysis",
+        "passed": true,
+        "duration_ms": 1.0,
+        "result": {
+          "passed": true,
+          "total_failures": 0,
+          "distribution": {
+            "physics_issue": 0,
+            "boundary_issue": 0,
+            "data_issue": 0,
+            "domain_mismatch": 0,
+            "threshold_breach": 0
+          },
+          "severity_breakdown": {
+            "critical": 0,
+            "high": 0,
+            "medium": 0,
+            "low": 0
+          },
+          "top_suggestions": [],
+          "analyses": []
+        }
+      },
+      {
+        "name": "FP Fixer",
+        "passed": true,
+        "duration_ms": 11.58,
+        "result": {
+          "passed": true,
+          "optimal_threshold": 0.62,
+          "fp_rate": 0.0
+        }
+      },
+      {
+        "name": "Feedback Loop",
+        "passed": true,
+        "duration_ms": 42.84,
+        "result": {
+          "passed": true,
+          "generation_logged": "gen_20260503_110408",
+          "recurring_patterns": 3,
+          "suggestions": [
+            "Recurring physics issues: Consider adjusting physics model parameters or training data",
+            "Recurring boundary issues: Review geometric constraints and boundary conditions",
+            "Recurring threshold breaches: Consider lowering acceptance threshold or improving model accuracy"
+          ]
+        }
+      }
+    ]
+  }
+}

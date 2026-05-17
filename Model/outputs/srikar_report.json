@@ -1,0 +1,68 @@
+{
+  "biology": {
+    "r2": 0.9418,
+    "saved": "outputs/models/biology_pinn.pt",
+    "total_loss": 0.000509,
+    "viability_score": 0.964,
+    "status": "PASS",
+    "surrogate": {
+      "r2_accuracy": 97.32,
+      "train_sec": 34.86,
+      "ms_per_1_pred": 0.581341,
+      "target_met": true
+    }
+  },
+  "stress": {
+    "r2": 0.9962,
+    "saved": "outputs/models/stress_pinn.pt",
+    "total_loss": 1e-05,
+    "viability_score": 0.9979,
+    "status": "PASS",
+    "surrogate": {
+      "r2_accuracy": 99.93,
+      "train_sec": 11.88,
+      "ms_per_1_pred": 0.511529,
+      "target_met": true
+    }
+  },
+  "heat": {
+    "r2": 0.978,
+    "saved": "outputs/models/heat_pinn.pt",
+    "total_loss": 8.6e-05,
+    "viability_score": 0.9816,
+    "status": "PASS",
+    "surrogate": {
+      "r2_accuracy": 96.43,
+      "train_sec": 9.01,
+      "ms_per_1_pred": 0.197692,
+      "target_met": true
+    }
+  },
+  "chemistry": {
+    "r2": 0.982,
+    "saved": "outputs/models/chemistry_pinn.pt",
+    "total_loss": 8e-06,
+    "viability_score": 0.9907,
+    "status": "PASS",
+    "surrogate": {
+      "r2_accuracy": 99.88,
+      "train_sec": 6.96,
+      "ms_per_1_pred": 0.252609,
+      "target_met": true
+    }
+  },
+  "growth": {
+    "r2": 0.9058,
+    "saved": "outputs/models/growth_pinn.pt",
+    "total_loss": 0.000248,
+    "viability_score": 0.9519,
+    "status": "PASS",
+    "surrogate": {
+      "r2_accuracy": 99.87,
+      "train_sec": 5.24,
+      "ms_per_1_pred": 0.431576,
+      "target_met": true
+    }
+  },
+  "final_score": 0.9772
+}
